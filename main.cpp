@@ -43,11 +43,11 @@ QT_CHARTS_USE_NAMESPACE
 // Device configuration and interface id.
 #define MY_CONFIG 1
 #define MY_INTF 0
-
+//p #define MY_INTF 1
 // Device endpoint(s)
 #define EP_IN 0x81
 #define EP_OUT 0x02
-
+//p #define EP_OUT 0x01
 // Device of bytes to transfer.
 #define BUF_SIZE 64
 
